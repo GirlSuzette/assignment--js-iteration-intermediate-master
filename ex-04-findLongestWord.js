@@ -10,15 +10,15 @@
 
 function findLongestWord(word){
   var longestWord = "";
-  var letter = word.replace(",", " ").split(" ");
-     for (var i=0; i<word.length; i++) {
-       if(letter.length > longestWord.length){
-          longestWord = letter
+  var letter = word.split(" ");
+     for (var i=0; i<letter.length; i++) {
+        if(letter.length > longestWord.length){
+            longestWord = letter[i]
           
        }
 
      }
-    //  return longestWord
+     return longestWord
 
 }
 

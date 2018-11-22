@@ -8,7 +8,19 @@
 
 // ++ YOUR CODE below
 
+function findLongestWord(word){
+  var longestWord = "";
+  var letter = word.replace(",", " ").split(" ");
+     for (var i=0; i<word.length; i++) {
+       if(letter.length > longestWord.length){
+          longestWord = letter
+          
+       }
 
+     }
+    //  return longestWord
+
+}
 
 
 

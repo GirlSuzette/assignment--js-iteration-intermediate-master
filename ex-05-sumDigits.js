@@ -13,7 +13,15 @@
 
  // ++ YOUR CODE below
 
+  function sumDigits (value){
+    var sum = 0;
+    var num = value.toString();
 
+    for (var i=0; i<num.length; i++) {
+        sum = sum + parseInt(num[i]);
+    }
+  return sum 
+  }
 
 
 

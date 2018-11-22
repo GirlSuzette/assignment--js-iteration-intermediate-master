@@ -14,7 +14,17 @@
 
 // ++ YOUR CODE below
 
+function hasComplements(target, number){
+   var r = false;
 
+   for (var i=0; i<number.length; i++) {
+     if(number[i] === target){
+       r = true
+     
+   }
+  }   
+   return r
+}
 
 
 

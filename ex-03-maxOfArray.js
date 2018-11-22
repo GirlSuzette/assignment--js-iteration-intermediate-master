@@ -8,13 +8,16 @@
 
 // ++ YOUR CODE below
 
-
-
-
-
-
-
-
+function maxOfArray(numbers){
+  var maxNumber = 0;
+  for (var i=0,len=numbers.length;i<len;i++) {
+    if( maxNumber < numbers[i]){
+         maxNumber = numbers[i];
+    }
+  }
+  
+  return maxNumber;
+}
 
 
 
